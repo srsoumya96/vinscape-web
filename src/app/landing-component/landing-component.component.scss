@@ -1,0 +1,152 @@
+.landing-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 28px 0 0 0;
+}
+
+.notify-me-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 116px;
+    min-width: 766px;
+    height: 762px;
+    background: url("../../assets/images/Vector 20.png") no-repeat;
+    background-size: contain;
+}
+
+.character-vincent-container {
+    margin-left: auto;
+    margin-right: 84px;
+    @media (max-width: 1436px) {
+        margin-left: auto;
+        margin-right: 84px;
+
+    }
+    background: url("../../assets/images/Character_Des_Vincent_\ 1.png") no-repeat;
+    background-size: contain;
+    min-width: 456px;
+    height: 736px;
+}
+
+.text-notify-me {
+    display: block;
+}
+
+
+.text-notify-me {
+    // margin-top: 238px;
+}
+
+.text-notify-me-header {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    /* identical to box height */
+
+    letter-spacing: -1px;
+
+    /* Blue */
+
+    color: #4285F4;
+
+    mix-blend-mode: normal;
+}
+
+.text-notify-me-message {
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    letter-spacing: -1px;
+
+    /* Navy */
+
+    color: #27187E;
+
+    mix-blend-mode: normal;
+}
+
+.notify-me-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    // margin-top: 115px;
+}
+
+.notify-me-button-pretext {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+
+
+    /* Navy */
+
+    color: #27187E;
+
+    mix-blend-mode: normal;
+}
+
+.notify-me-button {
+    width: 137px;
+    height: 44px;
+    background: #FFFFFF;
+    color: #4285F4;
+    border: 1.5px solid #4285F4;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px;
+    min-width: 766px;
+    box-sizing: border-box;
+}
+
+.about-us-container > .header-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.01em;
+    color: #353935;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.about-us-container > .description-text {
+    margin-top: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #353935;
+}
+
+.about-us-container > .teams-artwork {
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-bottom: 80px;
+}

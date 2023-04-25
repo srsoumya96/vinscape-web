@@ -1,0 +1,102 @@
+.footer-container {
+    background-color: #27187E;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px solid rgba(255,255,255, 0.5);
+    margin: 0;
+    padding: 52px 105px;
+    min-width: 766px;
+    box-sizing: border-box;
+}
+
+.logo-container > img {
+    margin: 0;
+    height: 40px;
+    width: 135px;
+}
+
+.logo-subtext {
+    margin-top: 12px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+.social-media-container {
+    margin-left: auto;
+}
+
+.social-media-links {
+    display: flex;
+    gap: 14px;
+}
+
+.social-media-links > img {
+    height: 32px;
+    width: 32px;
+}
+
+.social-media-subtext {
+    margin: 0;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+
+/* White */
+
+color: #FFFFFF;
+}
+
+.footer-cc {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px 105px;
+    background-color: #27187E;
+    min-width: 766px;
+    box-sizing: border-box;
+}
+
+.footer-cc-text {
+    margin: 0;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+/* White */
+
+color: #FFFFFF;
+}
+
+.footer-cc-language {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+
+    font-family: 'LEMON MILK Pro FTR';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+/* White */
+
+color: #FFFFFF;
+}

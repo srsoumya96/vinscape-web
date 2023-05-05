@@ -7,8 +7,8 @@
                 <p class="text-notify-me-message">coming soon...</p>
             </div>
             <div class="notify-me-button-container">
-                <p class="notify-me-button-pretext">I am an artist.</p>
-                <button class="notify-me-button">Notify me</button>
+                <p class="notify-me-button-pretext">I am an art enthusiast.</p>
+                <button class="notify-me-button" (click)="notifyMe();">Notify me</button>
             </div>
         </div>
         <div class="character-vincent-container">
@@ -32,3 +32,13 @@
     </div>
 </section>
 <app-footer-component></app-footer-component>
+
+<!-- <nz-modal [(nzVisible)]="isVisible" nzTitle="Great seems like you are an art enthusiast!!" (nzOnOk)="handleOk()">
+    <app-enquiry-form *nzModalContent [isVisible] = "isVisible">
+      
+    </app-enquiry-form>
+  </nz-modal> -->
+
+  <app-enquiry-form [isVisible] = "isVisible" (handleCancel)="handleCancel($event)" (handleOk)="handleOk($event)">
+      
+  </app-enquiry-form>

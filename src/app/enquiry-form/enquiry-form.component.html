@@ -1,0 +1,28 @@
+<nz-modal
+      [(nzVisible)]="isVisible"
+      [nzTitle]="modalTitle"
+      [nzContent]="modalContent"
+      [nzFooter]="modalFooter"
+      (nzOnCancel)="onClose()"
+    >
+      <ng-template #modalTitle>Great! Seems like you are an art enthusiast.</ng-template>
+
+      <ng-template #modalContent>
+        <div class="enquiry-form">
+            <p class="enquiry-form-heading">Email ID</p>
+            <input [ngModel]="emailID" (ngModelChange)="emailIDChanged($event)" name="EmailID" class="enquiry-form-textField-email" type="email" placeholder="Enter text here"
+            [ngClass]="formError ? 'error' : ''" />
+            <div class="isArtist-checkbox">
+                <input name="Artist" [(ngModel)]="isArtist" type="checkbox" name="isArtist" id="isArtist">
+                <label for="isArtist">I am an Artist.</label>
+            </div>
+            <div *ngIf="isArtist">
+                <p class="isArtist-subtext">We have something for you. Ping us on Instagram <a href="https://instagram.com/vinscape.in" target="_blank">vinscape.in</a>.</p>
+            </div>
+        </div>
+      </ng-template>
+
+      <ng-template #modalFooter>
+        <button nz-button nzType="primary" class="submit-button" (click)="onSubmit()">Submit</button>
+      </ng-template>
+    </nz-modal>

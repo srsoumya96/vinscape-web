@@ -1,10 +1,10 @@
 .footer-container {
-    background-color: #27187E;
+    background-color: #1F1F1F;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    border: 1px solid rgba(255,255,255, 0.5);
+    border-bottom: 1px solid rgba(255,255,255, 0.5);
     margin: 0;
     padding: 52px 105px;
     min-width: 766px;
@@ -65,7 +65,7 @@ color: #FFFFFF;
     flex-wrap: wrap;
     align-items: center;
     padding: 20px 105px;
-    background-color: #27187E;
+    background-color: #1F1F1F;
     min-width: 766px;
     box-sizing: border-box;
 }

@@ -1,0 +1,77 @@
+.enquiry-form-heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #353935;
+    margin: 4px 8px;
+}
+
+.enquiry-form-textField-email {
+    background: #FFFFFF;
+    padding: 10px 12px;
+    width: 458px;
+    height: 53px;
+    border: 1px solid #818589;
+    border-radius: 8px;
+
+    &:hover {
+        box-shadow: 0px 0px 0px 1.5px rgba(66, 133, 244, 0.5);
+    }
+
+    &:focus, &:focus-within {
+        border: 1px solid #4285F4;
+        box-shadow: 0px 0px 0px 1.5px rgba(66, 133, 244, 0.5);
+    }
+
+    &:focus-visible {
+        outline: none;
+    }
+
+    margin-bottom: 16px;
+
+    &.error {
+        border: 1px solid #FF3333;
+        box-shadow: 0px 0px 0px 1.5px rgba(255, 51, 51, 0.5);
+    }
+}
+
+.isArtist-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.isArtist-checkbox > input[type=checkbox] {
+    margin: 0px 8px;
+}
+
+.submit-button {
+    padding: 0px;
+    width: 94px;
+    height: 41px;
+    background: #4285F4;
+    border: none;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+
+    &:hover, &:active, &:focus {
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+    }
+}
+
+.isArtist-subtext {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #353935;
+    text-align: center;
+    margin: 16px;
+}
+
